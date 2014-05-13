@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Options in dialog that appears after selecting Picture size setting option -->
+<!--     <string-array name="pref_gallery_size_choices"> -->
+<!--         size choice of "fit" -->
+<!--         <item>Fit</item> -->
+<!--         size choice of "large" -->
+<!--         <item>Large</item> -->
+<!--         size choice of "small" -->
+<!--         <item>Small</item> -->
+<!--     </string-array> -->
+    <!-- Option values in dialog that appears after selecting Picture size setting option -->
+<!--     <string-array name="pref_gallery_size_values" translatable="false"> -->
+<!--         <item>2</item> -->
+<!--         <item>1</item> -->
+<!--         <item>0</item> -->
+<!--     </string-array> -->
+
+    <!-- Options in dialog that appears after selecting Picture sort setting option -->
+    <string-array name="pref_gallery_sort_choices">
+
+        <!-- Preference choice to show "newest first" -->
+        <item>Newest first</item>
+        <!-- Preference choice to show "newest last" -->
+        <item>Newest last</item>
+    </string-array>
+
+    <!-- Options in dialog that appears after selecting Slideshow interval setting option -->
+    <string-array name="pref_gallery_slideshow_interval_choices">
+
+        <!-- slide show interval "N seconds" where N is 2 -->
+        <item>2 seconds</item>
+        <!-- slide show interval "N seconds" where N is 3 -->
+        <item>3 seconds</item>
+        <!-- slide show interval "N seconds" where N is 4 -->
+        <item>4 seconds</item>
+    </string-array>
+    <!-- Option values in dialog that appears after selecting Slideshow interval setting option -->
+    <string-array name="pref_gallery_slideshow_interval_values" translatable="false">
+        <item>"2"</item>
+        <item>"3"</item>
+        <item>"4"</item>
+    </string-array>
+    <!--
+     Options in dialog that appears after selecting Slideshow transition
+     setting option
+    -->
+    <string-array name="pref_gallery_slideshow_transition_choices">
+
+        <!-- Slide show transition to fade in and fade out -->
+        <item>Fade in &amp; out</item>
+        <!-- Slide show transition to slide in and out from the left and right -->
+        <item>Slide left - right</item>
+        <!-- Slide show transition to slide in and out from the top and bottom -->
+        <item>Slide up - down</item>
+        <!-- Slide show transition to be chosen randomly -->
+        <item>Random selection</item>
+    </string-array>
+    <!-- Option values in dialog that appears after selecting Slideshow transition setting option -->
+    <string-array name="pref_gallery_slideshow_transition_values" translatable="false">
+        <item>"0"</item>
+        <item>"1"</item>
+        <item>"2"</item>
+        <item>"-1"</item>
+    </string-array>
+
+</resources>

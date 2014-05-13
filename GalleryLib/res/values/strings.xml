@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- label for the icon meaning 'show me all the images' -->
+    <string name="all_images">All pictures</string>
+
+    <!-- label for the icon meaning 'show me all the videos' -->
+    <string name="all_videos">All videos</string>
+
+    <!-- label for the icon meaning 'show me all the images that were taken with the camera' -->
+    <string name="camera_label">Camera</string>
+
+    <!-- label for the 'pictures application shown in the top level 'all applications' -->
+    <string name="gallery_label">Gallery</string>
+
+    <!-- label for the folder that contains Camera pictures in the gallery -->
+    <string name="gallery_camera_bucket_name">Camera pictures</string>
+
+    <!-- label for the folder that contains Camera videos in the gallery -->
+    <string name="gallery_camera_videos_bucket_name">Camera videos</string>
+
+    <!-- label for the folder that contains Camera videos in the gallery -->
+    <string name="gallery_camera_media_bucket_name">Camera media</string>
+
+    <!-- menu pick: view the currently selected image -->
+    <string name="view_label">View picture</string>
+    <string name="crop_label">Crop picture</string>
+
+    <!-- alert to the user to wait for some operation to complete -->
+    <string name="wait">Please wait\u2026</string>
+
+    <!-- alert to the user to that shared storage must be available before using the camera [CHAR LIMIT=NONE] -->
+    <string name="no_storage" product="nosdcard">Please mount the shared storage before using the camera.</string>
+    <!-- alert to the user to that an SD card must be installed before using the camera -->
+    <string name="no_storage" product="default">Please insert an SD card before using the camera.</string>
+
+    <!-- alert to the user to that the shared storage is too full to complete the operation [CHAR LIMIT=NONE] -->
+    <string name="not_enough_space" product="nosdcard">Your shared storage is full.</string>
+    <!-- alert to the user to that the SD card is too full to complete the operation -->
+    <string name="not_enough_space" product="default">Your SD card is full.</string>
+
+    <!-- alert to the user to that the shared storage is being disk-checked [CHAR LIMIT=NONE] -->
+    <string name="preparing_sd" product="nosdcard">Preparing shared storage\u2026</string>
+    <!-- alert to the user to that the SD card is being disk-checked -->
+    <string name="preparing_sd" product="default">Preparing SD card\u2026</string>
+
+    <!-- Toast/alert after saving wallpaper -->
+    <string name="wallpaper">Setting wallpaper, please wait\u2026</string>
+
+    <!-- Toast/alert that the image is being saved to the SD card -->
+    <string name="savingImage">Saving picture\u2026</string>
+
+    <!-- Toast/alert that the face detection is being run -->
+    <string name="runningFaceDetection">Please wait\u2026</string>
+
+    <!-- Menu items: -->
+    <!-- menu pick to view the currently selected image -->
+    <string name="view">View</string>
+
+    <!-- menu pick to view the details of the currently selected image -->
+    <string name="details">Details</string>
+
+    <!-- menu pick to rotate the currently selected image (brings up submenu) -->
+    <string name="rotate">Rotate</string>
+
+    <!-- menu pick to rotate the currently selected image to the left -->
+    <string name="rotate_left">Rotate left</string>
+
+    <!-- menu pick to rotate the currently selected image to the right -->
+    <string name="rotate_right">Rotate right</string>
+
+    <!-- menu pick to enter multiselect mode -->
+    <string name="multiselect">Multiselect</string>
+
+    <!-- menu pick picture to add to gallery -->
+    <string name="pick_picture">Add picture</string>
+
+    <!-- Confirmation dialog title after deleting a picture -->
+    <string name="confirm_delete_title">Delete</string>
+    <!-- Confirmation dialog message after deleting a picture -->
+    <string name="confirm_delete_message">The picture will be deleted.</string>
+    <!-- Confirmation dialog message after deleting a video -->
+    <string name="confirm_delete_video_message">The video will be deleted.</string>
+
+    <!-- Confirmation dialog message after deleting a multiple media files -->
+    <string name="confirm_delete_multiple_message">These media files will be deleted.</string>
+
+    <!-- button indicating that the picture just taken should be deleted -->
+    <string name="camera_delete">Delete</string>
+
+    <!-- Sometimes the word Remove is preferred instead of delete -->
+    <string name="camera_remove">Remove</string>
+    <string name="confirm_remove_title">Remove</string>
+    <string name="confirm_remove_message">The picture will be removed.</string>
+    <string name="confirm_remove_video_message">The video will be removed.</string>
+
+    <!-- button indicating that the picture just taken should be shared by email, mms, etc -->
+    <string name="camera_share">Share</string>
+
+    <!-- button indicating that the video just taken should be played -->
+    <string name="camera_play">Play</string>
+
+    <!-- button indicating that the video just taken should be accepted as an attachment -->
+    <string name="camera_attach">Attach</string>
+
+    <!-- button indicating that the info is requested on the picture -->
+    <string name="camera_info">Info</string>
+    <!-- button indicating that the video recording session should be canceled -->
+    <string name="camera_cancel">Cancel</string>
+
+    <!-- Toast after trying to share a picture indicating that there are no applications which are capable of so doing. -->
+    <string name="no_way_to_share_image">No application available to share the picture.</string>
+
+    <!-- Toast after trying to share a video indicating that there are no applications which are capable of so doing. -->
+    <string name="no_way_to_share_video">No application available to share the video.</string>
+
+    <!-- Toast after trying to share multiple media files indicating that there are no applications which are capable of so doing. -->
+    <string name="no_way_to_share">No application available to share the media file(s).</string>
+
+    <!-- Menu item for playing the video. -->
+    <string name="video_play">Play</string>
+
+    <!-- String indicating an action of picking a picture to use as wallpaper (e.g. set wallpaper from "Pictures") -->
+    <string name="camera_pick_wallpaper">Pictures</string>
+    <string name="camera_setas_wallpaper">Wallpaper</string>
+
+    <!-- Preference title for whether the user should be prompted form confirmation when deleting images -->
+    <string name="pref_gallery_confirm_delete_title">Confirm deletions</string>
+
+    <!-- Preference summary for whether the user should be prompted form confirmation when deleting images -->
+    <string name="pref_gallery_confirm_delete_summary">Show confirmation before deleting a picture or video</string>
+
+    <!-- Title of Details dialog -->
+    <string name="details_panel_title">Details</string>
+    <!-- Label in message of Details dialog -->
+    <string name="details_file_size">File size:</string>
+    <!-- Label in message of Details dialog -->
+    <string name="details_image_resolution">Resolution:</string>
+    <!-- Label in message of Details dialog -->
+    <string name="details_image_make">Manufacturer:</string>
+    <!-- Label in message of Details dialog -->
+    <string name="details_image_model">Model:</string>
+    <!-- Label in message of Details dialog -->
+    <string name="details_image_whitebalance">WhiteBalance:</string>
+    <!-- Label in message of Details dialog -->
+    <string name="details_image_latitude">GPS Latitude:</string>
+    <!-- Label in message of Details dialog -->
+    <string name="details_image_longitude">GPS Longitude:</string>
+    <!-- Label in message of Details dialog -->
+    <string name="details_image_location">Location:</string>
+    <!-- Label in message of Details dialog -->
+    <string name="details_duration">Duration:</string>
+    <!-- Label in message of Details dialog -->
+    <string name="details_date_taken">Date taken:</string>
+    <!-- Label in message of Details dialog -->
+    <string name="details_frame_rate">Frame rate:</string>
+    <!-- Label in message of Details dialog -->
+    <string name="details_bit_rate">Bit rate:</string>
+    <!-- Label in message of Details dialog -->
+    <string name="details_codec">Codec:</string>
+    <!-- Label in message of Details dialog -->
+    <string name="details_format">Format:</string>
+    <!-- Label in message of Defatils dialog -->
+    <string name="details_last_modified">Last Modified:</string>
+
+    <!-- Used to format image dimensions in Details dialog. e.g. 64 x 64 -->
+    <string name="details_dimension_x" translatable="false"><xliff:g id="width" example="640">%1$d</xliff:g> x <xliff:g id="height" example="480">%2$d</xliff:g></string>
+ <!-- #!TRANSLATE #!EXTRACT -->
+    <!-- Used to format short video duration in Details dialog. minutes:seconds e.g. 00:30 -->
+    <string name="details_ms" translatable="false"><xliff:g id="minutes">%1$02d</xliff:g>:<xliff:g id="seconds">%2$02d</xliff:g></string>
+ <!-- #!TRANSLATE #!EXTRACT -->
+    <!-- Used to format video duration in Details dialog. hours:minutes:seconds e.g. 0:21:30 -->
+    <string name="details_hms" translatable="false"><xliff:g id="hours">%1$d</xliff:g>:<xliff:g id="minutes">%2$02d</xliff:g>:<xliff:g id="seconds">%3$02d</xliff:g></string>
+ <!-- #!TRANSLATE #!EXTRACT -->
+    <!-- Unit of measure in the Details dialog frames per second. e.g. 20 fps -->
+    <string name="details_fps" translatable="false"><xliff:g id="frames" example="30">%1$d</xliff:g> fps</string>
+ <!-- #!TRANSLATE #!EXTRACT -->
+    <!-- Unit of measure in the Details dialog K bits per second. e.g. 192 Kbps -->
+    <string name="details_kbps" translatable="false"><xliff:g id="speed" example="192">%1$d</xliff:g> Kbps</string>
+ <!-- #!TRANSLATE #!EXTRACT -->
+    <!-- Unit of measure in the Details dialog M bits per second. e.g. 2.3 Mbps -->
+    <string name="details_mbps" translatable="false"><xliff:g id="speed" example="2.3">%1$g</xliff:g> Mbps</string>
+ <!-- #!TRANSLATE #!EXTRACT -->
+    <!-- Details dialog "OK" button. Dismisses dialog. -->
+    <string name="details_ok">OK</string>
+
+    <!-- Text of context menu when an image is selected -->
+    <string name="context_menu_header">Picture options</string>
+    <!-- Text of context menu when a video is selected -->
+    <string name="video_context_menu_header">Video options</string>
+
+    <!-- Activity title when in the image gallery to see pictures -->
+    <string name="photos_gallery_title">Gallery</string>
+
+    <!-- Activity title when in the image gallery to select a picture -->
+    <string name="pick_photos_gallery_title">Select picture</string>
+
+    <!-- Activity title when in the image gallery to see videos -->
+    <string name="videos_gallery_title">Gallery</string>
+
+    <!-- Activity title when in the image gallery to select a video -->
+    <string name="pick_videos_gallery_title">Select video</string>
+    <string name="sendImage">Send Piccza via</string>
+    <string name="share_text_short">My Piczza from PiczzaMMS.</string>
+    <string name="setImage">Set picture as</string>
+    <string name="sendVideo">Share video via</string>
+    <string name="send_media_files">Share media files via</string>
+
+    <!-- Activity label. This might show up in the activity-picker -->
+    <string name="movieviewlabel">Movies</string>
+    <!-- shown in the video player view while the video is being loaded, before it starts playing -->
+    <string name="loading_video">Loading video\u2026</string>
+
+    <!-- Movie View Resume Playing dialog title -->
+    <string name="resume_playing_title">Resume video</string>
+
+    <!-- Movie View Start Playing dialog title -->
+    <string name="resume_playing_message">Resume playing from <xliff:g id="duration" example="5:30">%s</xliff:g> ?</string>
+
+    <!-- Movie View Start Playing button "Resume from bookmark" -->
+    <string name="resume_playing_resume">Resume playing</string>
+
+    <!-- Movie View Start Playing button "Beginning" -->
+    <string name="resume_playing_restart">Start over</string>
+
+    <!-- Title for picture frame gadget to show in list of all available gadgets -->
+    <string name="gadget_title">Picture frame</string>
+
+    <!-- Title for the file information dialog -->
+    <string name="file_info_title">File info:</string>
+
+    <!-- The video is execeed the size limit of a MMS, and suggest user to record a shorter length clip -->
+    <string name="video_exceed_mms_limit">The video you recorded is too large to send via MMS. Try recording a shorter length clip.</string>
+
+    <!-- The messsage shown on progress dialog when deleting images -->
+    <string name="delete_images_message">Deleting images, please wait\u2026</string>
+
+    <!-- Crop Image strings -->
+    <string name="crop_add_text">Add</string>
+    <string name="crop_cancel_text">Cancel</string>
+    <string name="crop_add_more">Add More</string>
+    <string name="refresh">Refresh</string>
+
+    <!-- No pictures message -->
+    <string name="no_pictures_message">No media found.</string>
+
+</resources>

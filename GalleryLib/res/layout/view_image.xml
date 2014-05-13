@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rootLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black" >
+
+    <com.piczzamms.gallery.ui.ImageViewTouch
+        android:id="@+id/image"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FF000000"
+        android:focusableInTouchMode="true" />
+
+    <com.piczzamms.gallery.ui.EvenlySpacedLayout
+        android:id="@+id/action_icon_panel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:visibility="gone" >
+
+        <com.piczzamms.gallery.ui.ActionMenuButton
+            android:id="@+id/play"
+            style="@style/OnscreenActionIcon"
+            android:drawableTop="@drawable/ic_menu_camera_play"
+            android:text="@string/camera_play"
+            android:visibility="gone" />
+
+        <com.piczzamms.gallery.ui.ActionMenuButton
+            android:id="@+id/share"
+            style="@style/OnscreenActionIcon"
+            android:drawableTop="@drawable/ic_menu_share"
+            android:text="@string/camera_share"
+            android:visibility="gone" />
+
+        <com.piczzamms.gallery.ui.ActionMenuButton
+            android:id="@+id/discard"
+            style="@style/OnscreenActionIcon"
+            android:drawableTop="@drawable/ic_menu_delete"
+            android:text="@string/camera_delete"
+            android:visibility="gone" />
+
+        <com.piczzamms.gallery.ui.ActionMenuButton
+            android:id="@+id/attach"
+            style="@style/OnscreenActionIcon"
+            android:drawableTop="@drawable/ic_menu_attach"
+            android:text="@string/camera_attach"
+            android:visibility="gone" />
+
+        <com.piczzamms.gallery.ui.ActionMenuButton
+            android:id="@+id/info"
+            style="@style/OnscreenActionIcon"
+            android:drawableTop="@drawable/ic_menu_info"
+            android:text="@string/camera_info"
+            android:visibility="gone" />
+
+        <com.piczzamms.gallery.ui.ActionMenuButton
+            android:id="@+id/cancel"
+            style="@style/OnscreenActionIcon"
+            android:drawableTop="@drawable/ic_menu_cancel"
+            android:text="@string/camera_cancel"
+            android:visibility="gone" />
+    </com.piczzamms.gallery.ui.EvenlySpacedLayout>
+
+</RelativeLayout>

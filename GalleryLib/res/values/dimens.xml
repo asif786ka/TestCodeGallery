@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+  <dimen name="instruction_bottom_margin">20dip</dimen>
+
+</resources>
